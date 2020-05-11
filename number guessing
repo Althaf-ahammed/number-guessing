@@ -1,0 +1,15 @@
+def guess_number(number_in_mind):
+    import random
+    x=1
+    y=10
+    num=random.randrange(x,y)
+    if(num>number_in_mind):
+        print ('number is high')
+    elif(num==number_in_mind):
+        print('You have got it right!!!')
+    else:
+        print('Number is low')
+    
+
+#Provide different values for number_in_mind and test your program
+guess_number(4)
